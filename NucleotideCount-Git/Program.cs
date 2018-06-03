@@ -11,7 +11,6 @@ namespace NucleotideCount_Git
         static void Main(string[] args)
         {
             NucleotideCount nc = new NucleotideCount("G");
-            Console.WriteLine(nc.NucleotideCounts.Count);
 
             Console.ReadLine();
         } // end of Main method
